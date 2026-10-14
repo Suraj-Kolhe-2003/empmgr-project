@@ -39,49 +39,9 @@ A beginner-friendly Python project for managing employee records using modules, 
 
 
 # history
-* dc91064 (HEAD -> main, feature/report) Add department headcount and salary report
+(.venv) PS C:\Users\DEEL\Desktop\empmgr-project> git log --oneline --graph --all
+* 08fba81 (HEAD -> main, origin/main) emp manager project main branch
+* c66c3af (origin/feature/readme-polish, origin/HEAD, feature/readme-polish) Polish README documentation
+* dc91064 (feature/report) Add department headcount and salary report
 * b264b63 (feature/validation) Add project documentation and sample employee data
 * 0c9b58f Add gitignore for Python project
-:
-* dc91064 (HEAD -> main, feature/report) Add department headcount and salary report
-* b264b63 (feature/validation) Add project documentation and sample employee data
-* 0c9b58f Add gitignore for Python project
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-(END)
-* dc91064 (HEAD -> main, feature/report) Add department headcount and salary report
-* b264b63 (feature/validation) Add project documentation and sample employee data
-* 0c9b58f Add gitignore for Python project
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-(END)
