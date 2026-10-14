@@ -1,16 +1,12 @@
 
-# empmgr/cli.py
-
 from rich.console import Console
 from rich.table import Table
 
-from .storage import load_employees, save_employees
+from .storage import load_employees,save_employees
+from .validators import parse_salary, is_valid_email
 from .models import add_employee
-from .validators import parse_salary
-
 
 def show_employees():
-    """Display employees in a table."""
     employees = load_employees()
 
     table = Table(title="Employees")
@@ -28,7 +24,8 @@ def show_employees():
             f"{emp['salary']:,.2f}"
         )
 
-    Console().print(table)
+    console = Console()
+    console.print(table)
 
 
 def main():
@@ -51,10 +48,9 @@ def main():
             department = input("Department: ").strip()
             salary = parse_salary(input("Salary: "))
 
-            if not name or salary is None:
+            if not name or not department or salary is None or not is_valid_email(email):
                 print("Invalid input - employee not added.")
                 continue
-
             add_employee(
                 employees, name, email, department, salary
             )

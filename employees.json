@@ -33,5 +33,12 @@
     "email": "pratik@gmail.com",
     "department": "HR",
     "salary": 30000.0
+  },
+  {
+    "id": 6,
+    "name": "chaitanya",
+    "email": "chaitanya@gmail.com",
+    "department": "automation",
+    "salary": 25000.0
   }
 ]
