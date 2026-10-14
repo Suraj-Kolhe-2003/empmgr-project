@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Suraj",
+    "email": "er.surajkolhe@gmail.com",
+    "department": "Automation",
+    "salary": 25000.0
+  },
+  {
+    "id": 2,
+    "name": "Akhilesh",
+    "email": "Akhilesh@gmail.com",
+    "department": "Testing",
+    "salary": 20000.0
+  },
+  {
+    "id": 3,
+    "name": "Palash",
+    "email": "palash@gmail.com",
+    "department": "Automation",
+    "salary": 25000.0
+  },
+  {
+    "id": 4,
+    "name": "shubham",
+    "email": "shubham@gmail.com",
+    "department": "manager",
+    "salary": 40000.0
+  },
+  {
+    "id": 5,
+    "name": "pratik",
+    "email": "pratik@gmail.com",
+    "department": "HR",
+    "salary": 30000.0
+  }
+]
