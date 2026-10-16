@@ -13,6 +13,16 @@ Employee Manager is a beginner-friendly Python project that demonstrates modules
 - Store employee records in JSON
 - Generate department headcount and average salary reports
 
+
+
+## How to run
+create new folder open terminal and run below commands one by one:-
+1.clone this repo - git clone https://github.com/Suraj-Kolhe-2003/empmgr-project.git
+2.create virtual environment -  python -m venv .venv
+3.active virtual environment - .venv\Scripts\activate
+4.install all require pacakges - pip install -r requirements.txt
+5.run this project -> python -  m empmgr.cli
+
 ## Usage
 
 Activate the virtual environment, install dependencies from `requirements.txt`, and run the application from the project root:
